@@ -1,0 +1,155 @@
+/* >>>>>>>>>>>>>>>>>>>>> Code solution start at line 95 <<<<<<<<<<<<<<<<<<<<<<*/
+/* >>>>>>>>>>>>>>>>>>>>> Code solution 100% by hand <<<<<<<<<<<<<<<<<<<<<<*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.product {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+/* PRODUCT INFORMATION */
+.price {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+/* PRODUCT DETAILS */
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.details-list {
+  list-style: square;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+/* BUTTON */
+.add-cart {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
+  border-top: 5px solid black;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+/* Challenge Start here to end */
+.sale {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+  position: absolute;
+  top: -15px;
+  left: -25px;
+  padding: 5px 10px;
+}
+
+.colors {
+  padding: 20px;
+  text-align: center;
+
+  padding: 20px;
+}
+
+.colors .black1 {
+  background-color: black;
+  display: inline-block;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.colors .blue1 {
+  background-color: blue;
+  display: inline-block;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.colors .red1 {
+  background-color: red;
+  display: inline-block;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.colors .yellow1 {
+  background-color: yellow;
+  display: inline-block;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+.colors .green1 {
+  background-color: green;
+  display: inline-block;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.colors .brown1 {
+  background-color: brown;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}

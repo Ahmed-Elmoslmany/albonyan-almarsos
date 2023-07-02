@@ -1,0 +1,12 @@
+<%- include('includes/head.js')
+  <h1>Users</h1>
+  <% if(users.length > 0) { %>
+    <ul>
+      <% users.forEach(element => {%>
+          <li><%= element.user%></li>
+     <% })%> 
+      </ul>
+    <% }else {%>
+      <h1>No users found</h1>
+      <% }%>
+<%- include('includes/end.js')

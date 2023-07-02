@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+}
+
+#log {
+  height: 200px;
+  width: 600px;
+  overflow: scroll;
+}
+
+
+.draggable {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  cursor: move;
+  
+}
+
+.draggable.dragging {
+  opacity: .5;
+
+  /* animation: bb-drag 0.3s linear */
+  transform: all 3s ease-in;
+
+}
+
+.draggable.bb-drag{
+  /* background-color: red;
+  border: 0;
+  color: red; */
+  border-bottom: 5px solid red;
+}
+
+
+
+
+
+
+/* 
+
+// Add data elment to array and set localstorage
+// let q = []
+// let w = []
+// let d = []
+// containers.forEach((container, idx) => {  
+//     const arr = container.querySelectorAll('p')
+//     arr.forEach(el => {
+
+//       if(idx === 0) q.push(el.textContent)
+//       if(idx === 1) w.push(el.textContent)
+//       if(idx === 2) d.push(el.textContent)
+
+//     })
+  
+
+// })
+
+
+//   localStorage.setItem('qq', JSON.stringify(q))
+//   localStorage.setItem('ww', JSON.stringify(w))
+//   localStorage.setItem('dd', JSON.stringify(d))
+//   console.log(q)
+//   console.log(w)
+//   console.log(d)
+
+
+//   // get arrays from local storage
+//   q = localStorage.getItem('qq')
+//   w = localStorage.getItem('ww')
+//   // d = localStorage.getItem('dd')
+//   d.push("7")
+//   d.push("8")
+
+  
+//   console.log(d)
+  // console.log(localStorage.getItem('dd'))
+//   containers.forEach((container, arraidx) => {  
+//     if(arraidx === 2){
+//       d.forEach((data,idx) => {
+//         const el = document.createElement('p')
+
+//         el.innerHTML = `
+//         <p class="draggable" draggable="true">${data}</p>
+//         `
+
+//         container.appendChild(el)
+//         console.log(idx)
+//         console.log(data)
+
+//       })
+//     }
+
+// })
+
+// draggables = document.querySelectorAll('.draggable')
+
+
+
+*/
+
+
+

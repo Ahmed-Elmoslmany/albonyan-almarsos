@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  
+  position: relative;
+  /* Only works if there is nothing absolutely positioned in relation to body */
+
+  scroll-behavior: smooth;
+}
+
+
+header{
+  background-color: darksalmon;
+  padding: 3.2rem 2.3rem;
+}
+
+.main-head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  gap: 5rem;
+}
+
+.main-head p{
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.main-head p span{
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+
+.info-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.8rem;
+}
+.AhmedElmoslmany {
+  width: 14.8rem;
+  height: 14.8rem;
+}
+.AhmedElmoslmany-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Grid */
+main{
+  margin: 5rem 15rem;
+  
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 1.8rem;
+}
+
+
+.card{
+  width: 250px;
+  height: 200px;
+  /* background-color: aqua; */
+  position: relative;
+  border-radius: 4px;
+
+}
+
+.name{
+  position: absolute;
+  bottom: 20px;
+  border: 1px solid #000;
+  padding: .8rem;
+  border-radius: 4px;
+  left: 25%;
+}
+
+.type{
+  position: absolute;
+  right: 0;
+  top: 20px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0.8rem 1.8rem;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+
+}
+
+.type.api{
+  background-color: #0277BD;
+  color: #fff;
+}
+
+.card.api{
+  background-color: #4DD0E1;}
+
+
+.type.dom{
+  /* background-color: #FFFF00; */
+  background-color: #FFA000;
+  color: #fff;
+}
+
+.card.dom{
+  background-color: #FFD54F;
+}
+
+.type.game{
+  /* background-color: #FFFF00; */
+  background-color: #7B1FA2;
+  color: #fff;
+}
+
+.card.game{
+  background-color: #BA68C8;
+}
+
+.card.game:hover{
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.2s ease-in;
+  border-bottom: 5px solid #7B1FA2;
+
+}
+
+.card.api:hover{
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.2s ease-in;
+  border-bottom: 5px solid #0277BD;
+}
+
+.card.dom:hover{
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.2s ease-in;
+  border-bottom: 5px solid #FFA000;
+
+}
+
+.number{
+  font-size: 3.2rem;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  font-weight: 700;
+  color: #000;
+  
+  border-radius: 5px;
+}
+
+.number.dom{
+  border-bottom: 5px solid #FFA000;
+}
+
+.number.api{
+  border-bottom: 5px solid #0277BD;
+}
+.number.game{
+  border-bottom: 5px solid #7B1FA2;
+}
+
+
+
+
+
